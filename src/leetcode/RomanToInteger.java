@@ -27,7 +27,6 @@ import java.util.Map;
  Given a roman numeral, convert it to an integer.
 
 
-
  Example 1:
 
  Input: s = "III"
@@ -43,7 +42,6 @@ import java.util.Map;
  Input: s = "MCMXCIV"
  Output: 1994
  Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
-
 
  Constraints:
 
