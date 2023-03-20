@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.Arrays;
+
 /**Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
  You may assume that each input would have exactly one solution, and you may not use the same element twice.
  You can return the answer in any order.
@@ -27,13 +29,15 @@ package leetcode;
  Only one valid answer exists.
  **/
 
-public class TwoSum {
+public class _1_TwoSum {
 
     public static void main(String[] args) {
+        int[] nums = {3, 5, 2, 4, 7, 12, 10};
         System.out.println("test");
+        System.out.println(Arrays.toString(twoSum(nums, 22)));
     }
 
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
 
         int i;
         int j;

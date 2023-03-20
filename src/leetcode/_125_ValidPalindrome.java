@@ -32,7 +32,7 @@ package leetcode;
  * s consists only of printable ASCII characters.
  */
 
-public class ValidPalindrome {
+public class _125_ValidPalindrome {
     public static void main(String[] args) {
         System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
     }

@@ -29,7 +29,8 @@ package leetcode;
 
 public class _70_ClimbingStairs {
     public static void main(String[] args) {
-        System.out.println(climbStairs(8));
+//        System.out.println(climbStairs(8));
+        System.out.println(climbStairs2(8));
     }
 
     public static int climbStairs(int n) {
@@ -39,6 +40,21 @@ public class _70_ClimbingStairs {
             return n;
         else
             return climbStairs(n - 1) + climbStairs(n - 2);
+    }
+
+    public static int climbStairs2(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        int a = 1;
+        int b = 2;
+
+        for (int i = 3; i <= n; i++) {
+            int sum = a + b;
+            a = b;
+            b = sum;
+        }
+        return b;
     }
 
     }

@@ -33,7 +33,7 @@ package leetcode;
  * There will be at least one word in s.
  */
 
-public class LengthOfLastWord {
+public class _58_LengthOfLastWord {
     public static void main(String[] args) {
     lengthOfLastWord("Oh what a lovely day of solitude");
     }

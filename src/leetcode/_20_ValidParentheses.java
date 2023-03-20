@@ -31,7 +31,7 @@ import java.util.Stack;
  s consists of parentheses only '()[]{}'.
  */
 
-public class ValidParentheses {
+public class _20_ValidParentheses {
 
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
