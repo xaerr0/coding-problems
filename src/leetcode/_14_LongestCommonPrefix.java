@@ -38,6 +38,12 @@ public class _14_LongestCommonPrefix {
         System.out.println(Arrays.asList(strs));
         //Output: "fl"
 
+        //start first word as prefix
+        //compare "super" with "sudoko"
+        //"sudoko" is not in "super", return and -1 in length
+        //"sudok" is not in "super", return and -1 in length
+        //"sudo" is not in "super", return and -1 in length
+        // etc etc
         String prefix = strs[0];
         for (int i = 1; i < strs.length; i++ ) {
             while (strs[i].indexOf(prefix) != 0) {
