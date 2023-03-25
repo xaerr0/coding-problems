@@ -68,6 +68,5 @@ public class CompareTheTriplets {
 
         }
         return Arrays.asList(aScore, bScore);
-        }
-
+    }
 }
